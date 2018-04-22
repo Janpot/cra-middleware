@@ -12,7 +12,7 @@ This is mainly a proof of concept.
 ```js
 const express = require('express');
 const path = require('path');
-const craMiddleware = require('./craMiddleware');
+const craMiddleware = require('cra-middleware');
 
 const app = express();
 app.get('/api/hello', (req, res) => res.send('world'));
